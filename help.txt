@@ -1,0 +1,25 @@
+tutorial
+
+https://towardsdatascience.com/an-easy-tutorial-about-sentiment-analysis-with-deep-learning-and-keras-2bf52b9cba91
+
+https://github.com/sergiovirahonda/TweetsSentimentAnalysis/blob/main/TweetsSentimentPredictions.ipynb
+
+https://www.tensorflow.org/tutorials/structured_data/time_series#recurrent_neural_network
+
+https://www.tensorflow.org/guide/keras/rnn
+
+dataset
+http://study.mokoron.com/
+
+База данных состоит из 12 столбцов:
+– id: уникальный номер сообщения в системе twitter;
+– tdate: дата публикации сообщения (твита);
+– tmane: имя пользователя, опубликовавшего сообщение;
+– ttext:  текст сообщения (твита);
+– ttype: поле в котором в дальнейшем будет указано к кому классу относится твит (положительный, отрицательный, нейтральный);
+– trep: количество реплаев к данному сообщению. В настоящий момент API твиттера не отдает эту информацию;
+– tfav: число сколько раз данное сообщение было добавлено в избранное другими пользователями;
+– tstcount: число всех сообщений пользователя в сети twitter;
+– tfol: количество фоловеров пользователя (тех людей, которые читают пользователя);
+– tfrien: количество друзей пользователя (те люди, которых читает пользователь);
+– listcount: количество листов-подписок в которые добавлен твиттер-пользователь.
